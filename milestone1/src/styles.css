@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .home-page, .menu-page, .contact-page, .about-us-page {
+    padding: 20px;
+  }
+  
+  .menu-items, .order-customization, .cart, .feedback-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item, .order-customization, .cart-item {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-items, .order-customization, .cart {
+      flex-direction: column;
+    }
+  }
+  
